@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jahir Alom -- Python Developer & Creative Coder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <span class="nav-logo">JA<span class="dot">.</span></span>
+  <div class="nav-links">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <canvas id="nameCanvas"></canvas>
+  <p class="eyebrow">&#47;&#47; Python Developer & Creative Coder</p>
+  <p class="hero-tagline">Turning code into motion, one particle at a time.</p>
+  <a href="#projects" class="scroll-cue">scroll to see the work &darr;</a>
+</header>
+
+<main>
+
+  <section id="about" class="section">
+    <p class="section-label">01 -- about</p>
+    <p class="about-text">I'm a Python developer who enjoys building things that move, glow and surprise -- from particle-based generative art to small automation tools. I like exploring what happens when code gets a little theatrical: animation timing, color, and motion as much as logic.</p>
+    <p class="about-meta">based in India &nbsp;&middot;&nbsp; <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="section-label">02 -- skills</p>
+    <div class="terminal">
+      <div class="terminal-bar"><span></span><span></span><span></span></div>
+      <div class="terminal-body">
+        <p class="term-line"><span class="prompt">$</span> skills --list</p>
+        <div class="skills-grid">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">C </span>
+          <span class="skill-chip">Al promt Creator</span>
+          <span class="skill-chip">Automation</span>
+          <span class="skill-chip">HTML / CSS</span>
+          <span class="skill-chip">Problem Solving</span>
+          <span class="skill-chip">Microsoft Office Expart</span>
+          <span class="skill-chip">Creative Coding</span>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <p class="section-label">03 -- projects</p>
+    <div class="projects-grid">
+      <article class="project-card accent-cyan">
+        <p class="project-tag">generative-art</p>
+        <h3 class="project-title">Galaxy Name Animation</h3>
+        <p class="project-desc">Particles scatter from every edge of the screen and drift together to spell out a name in glowing white dots -- like a galaxy slowly assembling itself.</p>
+        <p class="project-stack">Python, turtle</p>
+      </article>
+      <article class="project-card accent-red">
+        <p class="project-tag">horror-fx</p>
+        <h3 class="project-title">The Cursed Name</h3>
+        <p class="project-desc">A haunted-house take on text animation: trembling strokes, flickering backgrounds, blood drips and jump-scare ghost eyes, all drawn frame by frame.</p>
+        <p class="project-stack">Python, turtle</p>
+      </article>
+      <article class="project-card accent-violet">
+        <p class="project-tag">web</p>
+        <h3 class="project-title">This Portfolio</h3>
+        <p class="project-desc">A static site generated entirely from a Python script, with a hero animation that borrows the same particles-assemble-into-text idea from the projects above.</p>
+        <p class="project-stack">Python, HTML, CSS, JS</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="section-label">04 -- contact</p>
+    <h2 class="contact-headline">Have something worth building?</h2>
+    <div class="contact-links">
+      <a href="mailto:Jahiralom07@gmail.com" class="contact-link">Jahiralom07@gmail.com</a>
+      <a href="https://github.com/jahiralom07-dotcom" class="contact-link" target="_blank" rel="noopener">https://github.com/jahiralom07-dotcom</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>&copy; <span id="year"></span> Jahir Alom</span>
+  <span>built with Python</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
